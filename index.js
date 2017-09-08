@@ -8,6 +8,6 @@ return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 
 function nowServing(katzDeliLine){
   if (katzDeliLine === []){
-    return "The line is empty";
+    return "There is nobody waiting to be served!";
   }
 }
