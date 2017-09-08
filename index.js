@@ -7,7 +7,7 @@ return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 }
 
 function nowServing(katzDeliLine){
-  if (katzDeliLine === []){
+  if (katzDeliLine === undefined){
     return "There is nobody waiting to be served!";
   }
 }
