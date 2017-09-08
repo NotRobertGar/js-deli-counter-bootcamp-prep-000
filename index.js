@@ -10,6 +10,4 @@ function nowServing(katzDeliLine){
   if (katzDeliLine === []){
     return "The line is empty";
   }
-  else if ...
-
 }
