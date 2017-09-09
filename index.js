@@ -7,7 +7,7 @@ return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 }
 
 function nowServing(katzDeliLine){
-  for (var i = 0; i < katzDeliLine.length; i++;)
+  for (var i = 0; i < katzDeliLine.length; i++)
   if (katzDeliLine > 0){
     return (`Currently serving ${katzDeliLine.shift()}.`);
   }
